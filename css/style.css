@@ -3,13 +3,14 @@
     padding: 0;
 }*/
 
-.padding-site{
+.padding-site {
     padding: 50px;
     box-sizing: border-box;
 }
 
 .container {
-    width: 1280px; /*Убрал max-width*/
+    width: 1280px;
+    /*Убрал max-width*/
     margin: 0 auto;
     font-family: Arial;
     box-sizing: border-box;
@@ -30,13 +31,13 @@
     clear: both;
 }
 
-.page-header-wrp{
+.page-header-wrp {
     float: left;
     width: 460px;
 }
 
 
-.page-header-title { 
+.page-header-title {
     margin: 0 0 10px 0;
     font-size: 60px;
     line-height: 1.2;
@@ -54,7 +55,7 @@
     width: 422px;
 }
 
-.page-header-list-item:before{
+.page-header-list-item:before {
     content: "";
     display: block;
     width: 25px;
@@ -75,12 +76,12 @@
 
     display: block;
     float: right;
-    
+
 }
 
 /*Второй блок*/
 
-.about-product{
+.about-product {
     box-sizing: border-box;
     padding: 50px;
 }
@@ -93,14 +94,14 @@
 }
 
 
-.about-product-wrap{
+.about-product-wrap {
     padding: 0;
     width: 60%;
     box-sizing: border-box;
     float: left;
 }
 
-.about-product-title{
+.about-product-title {
     margin: 0 0 30px 0;
     font-size: 30px;
     line-height: 36px;
@@ -108,7 +109,7 @@
     color: #445161;
 }
 
-.about-product-text{
+.about-product-text {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -116,11 +117,11 @@
     margin: 0 0 10px 0;
 }
 
-.about-product-text:last-child{
+.about-product-text:last-child {
     margin: 0;
 }
 
-.about-product-video{
+.about-product-video {
     display: block;
     float: right;
     margin: 0;
@@ -129,7 +130,7 @@
 
 /*Третий блок*/
 
-.dignity{
+.dignity {
     background-color: #f5f5f5;
     padding: 50px 50px 15px 50px;
     box-sizing: border-box;
@@ -145,37 +146,24 @@
     color: #445161;
 }
 
-.dignity-wrap{
+.dignity-wrap {
     margin: 0;
     display: flex;
 }
 
-.dignity-wrap:after{
+.dignity-wrap:after {
     content: "";
     display: block;
     clear: both;
 }
-/*
-.dignity-left-wrap{
-    box-sizing: border-box;
-    width: 50%;
-    float: left;
-}
 
-.dignity-right-wrap{
-    box-sizing: border-box;
-    width: 50%;
-    float: right;
-}
-*/
-
-.dignity-items{
+.dignity-items {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.dignity-item:before{
+.dignity-item:before {
     display: block;
     content: "+";
     width: 32px;
@@ -191,7 +179,7 @@
     line-height: 34px;
 }
 
-.dignity-item{
+.dignity-item {
     margin: 0 0 35px 0px;
     padding: 0 0 0 40px;
     box-sizing: border-box;
@@ -204,14 +192,15 @@
 
 /*Четвертый блок*/
 
-.screenshots{
+.screenshots {
     padding: 50px 50px 20px 50px;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.screenshots-title{
+
+.screenshots-title {
     margin: 0 0 20px 0;
     text-align: center;
     font-size: 30px;
@@ -221,7 +210,7 @@
     width: 100%;
 }
 
-.screenshots-wrap{
+.screenshots-wrap {
     margin: 0 0 30px 0;
     width: 574px;
     box-sizing: border-box;
@@ -229,18 +218,18 @@
     justify-content: space-between;
 }
 
-.screenshots-image{
+.screenshots-image {
     display: block;
     width: 200px;
-    height:150px;
+    height: 150px;
 }
 
-.screenshots-wrapper{
+.screenshots-wrapper {
     box-sizing: border-box;
     width: 359px;
 }
 
-.screenshots-subtitle{
+.screenshots-subtitle {
     margin: 0 0 15px 0;
     font-size: 24px;
     line-height: 30px;
@@ -248,7 +237,7 @@
     color: #445161;
 }
 
-.screenshots-text{
+.screenshots-text {
     margin: 0 0 0 0;
     font-size: 16px;
     line-height: 24px;
@@ -258,14 +247,14 @@
 
 /*Пятый блок*/
 
-.reviews{
+.reviews {
     background-color: #f5f5f5;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.reviews-title{
+.reviews-title {
     width: 100%;
     margin: 0 0 35px 0;
     font-size: 30px;
@@ -275,35 +264,36 @@
     text-align: center;
 }
 
-.reviews-wrap:before{
+.reviews-wrap:before {
     content: "";
     display: block;
-    border: 15px solid transparent; border-right: 15px solid #ebebeb;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
     position: absolute;
     top: 24px;
     left: 68px;
 }
 
-.reviews-wrap{
+.reviews-wrap {
     width: 574px;
-    display: flex;    
+    display: flex;
     box-sizing: border-box;
     justify-content: space-between;
     position: relative;
     margin: 0 0 24px 0;
 }
 
-.no-margin{
+.no-margin {
     margin: 0;
 }
 
-.reviews-image{
+.reviews-image {
     width: 75px;
     height: 75px;
     display: block;
 }
 
-.reviews-wrapper{
+.reviews-wrapper {
     padding: 16px 20px 16px 20px;
     border-radius: 10px;
     width: 476px;
@@ -311,7 +301,7 @@
     background-color: #ebebeb;
 }
 
-.reviews-text{
+.reviews-text {
     margin: 0 0 15px 0;
     font-size: 14px;
     line-height: 18px;
@@ -320,7 +310,7 @@
     color: #333333;
 }
 
-.reviews-text-quote{
+.reviews-text-quote {
     margin: 0;
     font-size: 14px;
     line-height: 18px;
@@ -330,16 +320,16 @@
 
 /*Шестой блок*/
 
-.buy-title{
+.buy-title {
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
-    color: #445161;  
+    color: #445161;
     text-align: center;
     margin: 0 0 20px 0;
 }
 
-.buy-wrap{
+.buy-wrap {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -347,7 +337,7 @@
     padding: 0 95px 0 95px;
 }
 
-.buy-card{
+.buy-card {
     border: 2px solid #445162;
     background-color: #445162;
     box-sizing: border-box;
@@ -356,7 +346,7 @@
     padding: 0 0 20px 0;
 }
 
-.buy-card-title{
+.buy-card-title {
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
@@ -365,7 +355,8 @@
     padding: 18px 0 18px 0;
     margin: 0;
 }
-.buy-card-price{
+
+.buy-card-price {
     display: block;
     font-size: 40px;
     line-height: 30px;
@@ -375,7 +366,8 @@
     text-align: center;
     padding: 16px 0 17px 0;
 }
-.buy-card-items{
+
+.buy-card-items {
     background-color: #445162;
     box-sizing: border-box;
     padding: 19px 0 20px 20px;
@@ -383,7 +375,7 @@
     list-style-position: inside;
 }
 
-.buy-card-item{
+.buy-card-item {
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -391,7 +383,7 @@
     padding: 0;
 }
 
-.buy-botton{
+.buy-botton {
     padding: 14px 0 14px 0;
     display: block;
     width: 260px;
@@ -408,17 +400,17 @@
     border: 1px solid #445162;
 }
 
-.buy-botton:hover{
+.buy-botton:hover {
     background-color: black;
 }
 
-.buy-botton:active{
+.buy-botton:active {
     background-color: grey;
 }
 
 /*Заключительный блок*/
 
-.contacts{
+.contacts {
     background-color: #445162;
     display: flex;
     flex-wrap: wrap;
@@ -436,7 +428,7 @@
     box-sizing: border-box;
 }
 
-.contacts-form{
+.contacts-form {
     display: flex;
     flex-direction: column;
     padding: 0 0 0 200px;
@@ -447,7 +439,25 @@
     color: #445162;
 }
 
-.contacts-form-name{
+.contacts-form-name {
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    margin: 0 0 21px 0;
+    padding: 14px 0 14px 10px;
+    border: 2px solid #445162;
+    text-transform: capitalize;
+}
+
+.contacts-form-name:hover {
+    background-color: grey;
+}
+
+.contacts-form-name:focus {
+    background-color: green;
+}
+
+.contacts-form-email {
     box-sizing: border-box;
     border-radius: 10px;
     outline: none;
@@ -456,30 +466,15 @@
     border: 2px solid #445162;
 }
 
-.contacts-form-name:hover{
+.contacts-form-email:hover {
     background-color: grey;
 }
-.contacts-form-name:focus{
+
+.contacts-form-email:focus {
     background-color: green;
 }
 
-.contacts-form-email{
-    box-sizing: border-box;
-    border-radius: 10px;
-    outline: none;
-    margin: 0 0 21px 0;
-    padding: 14px 0 14px 10px;
-    border: 2px solid #445162;
-}
-
-.contacts-form-email:hover{
-    background-color: grey;
-}
-.contacts-form-email:focus{
-    background-color: green;
-}
-
-.contacts-form-text{
+.contacts-form-text {
     box-sizing: border-box;
     border-radius: 10px;
     outline: none;
@@ -490,21 +485,23 @@
     resize: none;
 }
 
-.contacts-form-text:hover{
+.contacts-form-text:hover {
     background-color: grey;
 }
-.contacts-form-text:focus{
+
+.contacts-form-text:focus {
     background-color: green;
 }
 
-::placeholder{
+::placeholder {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #445162;
+    text-transform: none;
 }
 
-.contacts-form-button{
+.contacts-form-button {
     display: block;
     width: 140px;
     font-size: 16px;
@@ -520,15 +517,15 @@
     border: 2px solid #445162;
 }
 
-.contacts-form-button:hover{
-
+.contacts-form-button:hover {
+    background-color: aqua;
 }
 
-.contacts-form-button:active{
-    
+.contacts-form-button:active {
+    background-color: blue;
 }
 
-.contacts-items{
+.contacts-items {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -537,7 +534,7 @@
     box-sizing: border-box;
 }
 
-.contacts-item:before{
+.contacts-item:before {
     content: "";
     display: block;
     width: 26px;
@@ -548,32 +545,72 @@
     left: -32px;
 }
 
-.contacts-item{
+.contacts-item {
     display: block;
     margin: 0 0 29px 31px;
     position: relative;
 }
 
-.link4{
+.link4 {
     margin: 0 0 37px 31px;
 }
-.contacts-item:nth-of-type(1):before{
+
+.contacts-item:nth-of-type(1):before {
     background-image: url(../img/skype.png);
     background-repeat: no-repeat;
 }
-.contacts-item:nth-of-type(2):before{
+
+.contacts-item:nth-of-type(2):before {
     background-image: url(../img/phone.png);
     background-repeat: no-repeat;
 }
-.contacts-item:nth-of-type(3):before{
+
+.contacts-item:nth-of-type(3):before {
     background-image: url(../img/mail.png);
     background-repeat: no-repeat;
 }
-.contacts-item:nth-of-type(4):before{
+
+.contacts-item:nth-of-type(4):before {
     background-image: url(../img/icq.png);
     background-repeat: no-repeat;
 }
 
-.contacts-links{
+.contacts-social-items {
+    /*border: 1px solid red;*/
     box-sizing: border-box;
+    width: 240px;
+    display: flex;
+}
+
+.contacts-social-item {
+    display: block;
+    box-sizing: border-box;
+    width: 44px;
+    height: 42px;
+    /*border: 1px solid green;*/
+    background-image: url(../img/social_buttons_338.png);
+}
+
+.contacts-social-item:nth-child(1) {
+    background-position: 0 0;
+}
+
+.contacts-social-item:nth-child(2) {
+    background-position: -49px 0;
+}
+
+.contacts-social-item:nth-child(3) {
+    background-position: -98px 0;
+}
+
+.contacts-social-item:nth-child(4) {
+    background-position: -149px 0;
+}
+
+.contacts-social-item:nth-child(5) {
+    background-position: -197px 0;
+}
+
+.copy-text {
+    text-align: center;
 }
